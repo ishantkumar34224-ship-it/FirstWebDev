@@ -1280,3 +1280,20 @@ flex-wrap:wrap;
     font-size:14px;
 
 }
+
+/* ==========================================
+   FIX: CLICKABLE ONGOING CARD
+========================================== */
+.ongoing-card a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+    cursor: pointer !important;
+    position: relative !important;
+    z-index: 9999 !important;
+}
+
+/* Hover effects text par hi rahe */
+.ongoing-card a:hover {
+    text-decoration: none;
+}
